@@ -8,7 +8,6 @@ This repository contains code for pyrolysis-gas chromatography-mass spectrometry
 
 | Paths | Description |
 | ----- | ----------- |
-
 | [`CSV/`](CSV/) | Directory containing exported PCA results, including scores and variance-scaled loadings in CSV format. |
 | [`data/`](data/) | Exemplar biochar [py-GC-MS dataset](data/biochar-PCA-18112026.csv) used for PCA. |
 | [`PNG/`](PNG/) | PCA plots and loadings exported in PNG format. |
