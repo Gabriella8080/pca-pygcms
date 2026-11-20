@@ -2,12 +2,13 @@
 
 ## Overview
 
-This repository contains code for pyrolysis-gas chromatography–mass spectrometry (Py-GC-MS) data using Principal Component Analysis (PCA). This includes exporting figures in PNG and TIFF formats, alongside CSV files containing PCA scores and loadings.
+This repository contains code for pyrolysis-gas chromatography-mass spectrometry (py-GC-MS) data using Principal Component Analysis (PCA). This includes exporting figures in PNG and TIFF formats, alongside CSV files containing PCA scores and loadings.
 
 ## Repository Structure
 
 | Paths | Description |
 | ----- | ----------- |
+
 | [`CSV/`](CSV/) | Directory containing exported PCA results, including scores and variance-scaled loadings in CSV format. |
 | [`data/`](data/) | Exemplar biochar [py-GC-MS dataset](data/biochar-PCA-18112026.csv) used for PCA. |
 | [`PNG/`](PNG/) | PCA plots and loadings exported in PNG format. |
