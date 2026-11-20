@@ -1,2 +1,25 @@
-# pca-pygcms
-Performing principal component analysis (PCA) and inspecting loadings for py-GC-MS datasets.
+# PCA of py-GC-MS Datasets
+
+## Overview
+
+This repository contains code for pyrolysis-gas chromatography–mass spectrometry (Py-GC-MS) data using Principal Component Analysis (PCA). This includes exporting figures in PNG and TIFF formats, alongside CSV files containing PCA scores and loadings.
+
+## Repository Structure
+
+| Paths | Description |
+| ----- | ----------- |
+| `CSV/` | Directory containing exported PCA results, including scores and variance-scaled loadings in CSV format. |
+| `data/` | Biochar py-GC-MS dataset used for PCA. |
+| `PNG/` | PCA plots and loadings exported in PNG format. |
+| `TIFF/` | PCA plots and loadings exported in TIFF format. |
+| `biochar-pca.ipynb` | Jupyter notebook with data preparation, PCA, score plots and loading visualisations. |
+| `environment.yml` | Conda environment specifying the Python version and dependencies required to run notebook. |
+
+## Environment Usage
+
+The project uses Conda to manage its Python environment and dependencies.
+
+**Creating the environment:**
+
+```bash
+conda env create -f environment.yml
